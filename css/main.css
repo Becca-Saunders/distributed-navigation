@@ -8,6 +8,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #fff;
+  margin: 0;
+}
+
 header img {
   width: 2rem;
 }
@@ -20,6 +25,7 @@ header {
 
 header p {
   align-items: center;
+  margin: auto;
 }
 
 nav ul {
@@ -35,8 +41,11 @@ nav li {
 }
 
 nav a {
-  color: #0074d9;
   text-decoration: none;
+}
+
+a:hover {
+    color: #0074d9;
 }
 
 header h1 {
