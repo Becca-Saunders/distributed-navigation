@@ -15,17 +15,18 @@ body {
 
 header img {
   width: 2rem;
+  order: -1;
 }
 
 header {
   background-color: #e2e2e2;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 header p {
-  align-items: center;
-  margin: auto;
+  margin: 0 auto;
 }
 
 nav ul {
@@ -45,9 +46,9 @@ nav a {
 }
 
 a:hover {
-    color: #0074d9;
+  color: #0074d9;
 }
 
 header h1 {
-
+  align-content: flex-start;
 }
